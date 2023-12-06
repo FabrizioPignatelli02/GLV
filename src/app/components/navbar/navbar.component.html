@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand bg-body-tertiary p-0">
+  <div class="container-fluid bg-custom">
+    <div>
+      <a class="navbar-brand" href="#"
+        ><img
+          src="../../../assets/img/GIÙ LA VISIERA logo (1).png"
+          alt="logo Giù La Visiera"
+          width="90"
+          height="50"
+      /></a>
+    </div>
+    <div
+      class="collapse navbar-collapse d-flex justify-content-around"
+      id="navbarNavAltMarkup"
+    >
+      <div class="navbar-nav">
+        <a
+          class="nav-link"
+          [routerLink]="['/']"
+          routerLinkActive="onActive"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >HOME</a
+        >
+      </div>
+      <div class="navbar-nav">
+        <a
+          class="nav-link"
+          [routerLink]="['/episodi']"
+          routerLinkActive="onActive"
+          >EPISODI</a
+        >
+      </div>
+      <div class="navbar-nav">
+        <a
+          class="nav-link"
+          [routerLink]="['/chiSiamo']"
+          routerLinkActive="onActive"
+          >CHI SIAMO</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>
